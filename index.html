@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="todo_app">
+            <div class="input_area">
+                <input type="text" maxlength="50" class="todo_field" placeholder="Add your todo text here ....">
+                <button onclick="addtodo()" class="addtask" title="Add Task"><svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect fill="none" height="50" width="50"/><line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/><line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/></svg></button>
+            </div>
+            <div class="deleteallbtn">
+                <button onclick="deletealltodo()" title="Delete All Task">
+                    Delete All Todos
+                </button>
+            </div>
+            <ul class="todo_list">
+                <p class="emptytodo">Your Todo List is empty ッ !!</p>
+            </ul>
+        </div>
+</body>
+<script src="./script.js"></script>
+</html>
